@@ -38,7 +38,8 @@ body{
 }
 
 #darkmode__moon{
-
+    transition: .1 ease;
+    background-color: var(--light-background-blue);
 }
 
 #darkmode__moon:hover{
@@ -49,6 +50,8 @@ body{
     visibility: hidden;
     fill: #ffffff;
     position: absolute;
+    transition: 1 ease;
+    background-color: var(--dark-mode);
 }
 
 #darkmode__sun:hover{
