@@ -44,6 +44,7 @@ body{
 
 #darkmode__moon:hover{
     fill: var(--main-blue);
+    cursor: pointer;
 }
 
 #darkmode__sun{
@@ -56,6 +57,7 @@ body{
 
 #darkmode__sun:hover{
     fill: var(--accent-blue);
+    cursor: pointer;
 }
 
 #darkmode__sun,
